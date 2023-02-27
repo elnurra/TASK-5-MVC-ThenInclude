@@ -88,21 +88,7 @@
 
             <hr>
 
-            <div class="row py-2">
-                <div class=" col-lg-4 text-center text-lg-left">
-                    <p class="text-black-50">Powered by <a class="author text-muted"
-                            href="https://www.bakhtiyar.az">Bakhtiyar Shamilzada</a> 2020</p>
-                </div>
-                <div class=" col-lg-4 text-center">
-                    <img src="~/img/footer-bottom-1.png" class="fluid" alt="">
-                </div>
-                <div class=" col-lg-4 text-center text-lg-right mt-3 mt-lg-0">
-                    <a class="text-black-50 mr-5"
-                        href="https://www.linkedin.com/in/bakhtiyar-shamilzada-145159185/">LINKEDIN</a
-                        class="text-black-50">
-                    <a class="text-black-50" href="https://www.facebook.com/shamilzada.bakhtiyar">FACEBOOK</a>
-                </div>
-            </div>
+            @await Component.InvokeAsync("Footer")
         </div>
     </footer>
 

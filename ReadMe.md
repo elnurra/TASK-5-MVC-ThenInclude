@@ -1,1 +1,1 @@
-HOMEWORK: Repeating ViewComponents,using method Then Include
+HOMEWORK: Repeating Partial,create search input and load more button.
